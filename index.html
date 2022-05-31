@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Página de Login</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+  <div class="container" >
+    <a class="links" id="paracadastro"></a>
+    <a class="links" id="paralogin"></a>
+    
+    <div class="content">  
+         
+      <!--FORMULÁRIO DE COLABORADOR-->
+      <div id="login">
+        <form method="post" action=""> 
+          <h1>Colaborador</h1> 
+          <img src="Logo_L2.png" alt="logo" id="logo"> 
+          <p> 
+                                
+          <p> 
+            <label for="email_login">CPF</label>
+            <input id="email_login" name="email_login" required="required" type="password" placeholder="Seu CPF" /> 
+          </p>
+
+          <p class="link">
+            Empresa?
+            <a href="#paracadastro">Clique Aqui</a>
+          </p>
+                    
+          <p> 
+            <input type="submit" value="Login" /> 
+          </p>
+           
+         <!-- <p class="link">
+            Empresa?
+            <a href="#paracadastro">Clique Aqui</a>
+          </p>-->
+        </form>
+      </div>
+ 
+      <!--FORMULÁRIO DE EMPRESA-->
+      <div id="cadastro">
+        <form method="post" action=""> 
+          <h1>Empresa</h1> 
+          <img src="Logo_L2.png" alt="logo" id="logo"> 
+                    
+          <p> 
+            <label for="email_cad">CNPJ</label>
+            <input id="email_cad" name="email_cad" required="required" type="number" placeholder="CNPJ"/> 
+          </p>
+           
+          <p> 
+            <label for="senha_cad">Sua Senha</label>
+            <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="Senha"/>
+          </p>
+
+          <p class="link">  
+            Colaborador?
+            <a href="#paralogin"> Clique Aqui </a>
+          </p>
+           
+          <p> 
+            <input type="submit" value="Login"/> 
+          </p>
+           
+         <!---<p class="link">  
+            Colaborador?
+            <a href="#paralogin"> Clique Aqui </a>
+          </p>-->
+        
+        </form>
+      </div>
+    </div>
+  </div> 
+ 
+</body>
+
+</html>
